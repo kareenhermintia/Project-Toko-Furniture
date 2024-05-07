@@ -1,0 +1,112 @@
+.banner {
+  background: url("https://www.crlaine.com/media/wysiwyg/home/1550-00B_L2775-05_2445-05_RS_0420_fpo.jpg")
+    no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: rgb(106, 137, 236);
+}
+
+.crop-img {
+  object-fit: cover;
+}
+
+.home h2 {
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+.home p {
+  font-family: arial;
+  font-size: medium;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+p {
+  font-family: arial;
+}
+
+.lingkaran {
+  display: inline-block;
+  border-radius: 70%;
+  width: 150px;
+  margin: auto;
+  height: 150px;
+  color: #fff;
+  background-color: #f0bb62;
+}
+
+.lingkaran i {
+  position: relative;
+  top: 40px;
+}
+
+.clearfix pt-5 table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #cacaca;
+}
+
+th {
+  background-color: #b9a150;
+  color: rgb(255, 255, 255);
+}
+
+.welcome_login {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.pembukaan {
+  width: 400px;
+  background: rgb(223, 214, 222);
+  margin: 80px auto;
+  padding: 30px 20px;
+}
+
+label {
+  font-size: 11pt;
+}
+
+.form_login {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  font-size: 11pt;
+  margin-bottom: 20px;
+}
+
+.tombol_login {
+  background: brown;
+  color: rgb(224, 163, 163);
+  font-size: 11pt;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+}
+
+.link {
+  color: violet;
+  text-decoration: none;
+  font-size: 10pt;
+}

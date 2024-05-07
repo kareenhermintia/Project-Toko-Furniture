@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UAS</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!---bagian navbar-->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">Dream Furniture</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-right" id="navbarText">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#produk">Produk</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#order">How to Order</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#login">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!----bagian banner-->
+    <div class="container-fluid banner">
+      <div class="container text-center">
+        <h4 class="display-6">Welcome to Dream Furniture website</h4>
+        <h3 class="display-1">Happy Shopping!</h3>
+        <a href="#produk">
+          <button type="button" class="btn btn-primary btn-lg">
+            Lihat Produk
+          </button>
+        </a>
+      </div>
+    </div>
+    <!---bagian home-->
+    <div class="container-fluid home pt-5 pb-5 bg-secondary">
+      <div class="container text-center">
+        <h2 class="display-3" id="home">Home</h2>
+        <p>Geser gambar untuk melihat</p>
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a href="#produk"
+                ><img src="furniture.jpg" class="d-block w-100"
+              /></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#produk"><img src="home.jpg" class="d-block w-100" /></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#produk"><img src="room.jpg" class="d-block w-100" /></a>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!---untuk bagian produk-->
+    <div class="container-fluid pt-5 pb-5 bg-light">
+      <div class="container text-center">
+        <h2 class="display-3" id="produk">Our Product</h2>
+        <p>Berbagai macam pilihan furniture yang ingin anda pilih</p>
+        <div class="row pt-4 gx-4 gy-4">
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <a href="#produk"
+                ><img
+                  src="chair.jpg"
+                  class="card-img-top"
+                  width="200"
+                  height="300"
+              /></a>
+              <div class="card-body">
+                <h5 class="card-title">Bangku Santai</h5>
+                <p class="card-text">250.000</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <a href="#produk"
+                ><img
+                  src="desk.jpg"
+                  class="card-img-top"
+                  width="200"
+                  height="300"
+              /></a>
+              <div class="card-body">
+                <h5 class="card-title">Meja Belajar</h5>
+                <p class="card-text">400.000</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <a href="#produk"
+                ><img
+                  src="cermin.jpg"
+                  class="card-img-top"
+                  width="200"
+                  height="300"
+              /></a>
+              <div class="card-body">
+                <h5 class="card-title">Cermin</h5>
+                <p class="card-text">150.000</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <a href="#produk"
+                ><img
+                  src="lemari.jpg"
+                  class="card-img-top"
+                  width="200"
+                  height="300"
+              /></a>
+              <div class="card-body">
+                <h5 class="card-title">Lemari</h5>
+                <p class="card-text">500.000</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <a href="#produk"
+                ><img
+                  src="bed.jpg"
+                  class="card-img-top"
+                  width="200"
+                  height="300"
+              /></a>
+              <div class="card-body">
+                <h5 class="card-title">Kasur</h5>
+                <p class="card-text">2.500.000</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <a href="#produk"
+                ><img
+                  src="sofa.jpeg"
+                  class="card-img-top"
+                  width="200"
+                  height="300"
+              /></a>
+              <div class="card-body">
+                <h5 class="card-title">Sofa</h5>
+                <p class="card-text">1.300.000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <h3>Our Another Product</h3>
+        <div class="clearfix pt-5">
+          <table align="center">
+            <tr>
+              <th>Product</th>
+              <th>Category</th>
+              <th>Price</th>
+            </tr>
+            <tr>
+              <td>Rak Buku</td>
+              <td>Interior</td>
+              <td>299.000</td>
+            </tr>
+            <tr>
+              <td>Lampu Kerja</td>
+              <td>Interior</td>
+              <td>199.000</td>
+            </tr>
+            <tr>
+              <td>Kursi Lipat</td>
+              <td>Interior</td>
+              <td>210.000</td>
+            </tr>
+            <tr>
+              <td>Meja Tv</td>
+              <td>Interior</td>
+              <td>999.000</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <!---bagian how to order-->
+    <div class="container-fluid pt-5 pb-5 bg-secondary">
+      <div class="container text-center">
+        <h2 class="display-3" id="order">How To Order</h2>
+        <p>Pastikan produk kamu sudah benar ya!</p>
+        <div class="row pt-4">
+          <div class="col-md-4">
+            <span class="lingkaran"
+              ><i class="fas fa-shopping-cart fa-5x"></i
+            ></span>
+            <h3 class="mt-3">Masukkan keranjang</h3>
+            <p>Pilih produk yang kamu inginkan</p>
+          </div>
+          <div class="col-md-4">
+            <span class="lingkaran"
+              ><i class="fas fa-credit-card fa-5x"></i
+            ></span>
+            <h3 class="mt-3">Pembayaran</h3>
+            <p>Lakukan pembayaran yang sudah tertera</p>
+          </div>
+          <div class="col-md-4">
+            <span class="lingkaran"><i class="fas fa-truck fa-5x"></i></span>
+            <h3 class="mt-3">Siap di Kirim</h3>
+            <p>Paket siap di antar</p>
+          </div>
+        </div>
+      </div>
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4" />
+        </div>
+        <div class="col-md-6">
+          <label for="inputname" class="form-label">Atas Nama</label>
+          <input type="name" class="form-control" id="inputname" />
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Alamat lengkap</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputAddress"
+            placeholder="Beserta nomer rumah"
+          />
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label"
+            >Alamat lengkap lainnya</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="inputAddress2"
+            placeholder="Apartment, studio atau lantai"
+          />
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">Kota</label>
+          <input type="text" class="form-control" id="inputCity" />
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">Provinsi</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>DKI Jakarta</option>
+            <option>Jawa Barat</option>
+            <option>Jawa Tengah</option>
+            <option>Jawa Timur</option>
+          </select>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck" />
+            <label class="form-check-label" for="gridCheck">
+              Ceklis jika data sudah benar
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Check Out</button>
+        </div>
+      </form>
+      <br />
+      <h3>Produk yang di tawarkan</h3>
+      <input type="submit" onclick="loop()" value="Klik Untuk Melihat Produk" />
+      <p id="demo"></p>
+      <script>
+        function loop() {
+          const furniture = [
+            "Bangku Santai",
+            "Meja Belajar",
+            "Cermin",
+            "Lemari",
+            "Kasur",
+            "Sofa",
+          ];
+
+          let text = "";
+          for (let i = 0; i < furniture.length; i++) {
+            text += furniture[i] + "<br>";
+          }
+          document.getElementById("demo").innerHTML = text;
+        }
+      </script>
+    </div>
+    <!---bagian tentang-->
+    <div class="container-fluid pt-5 pb-5 bg-light">
+      <div class="container">
+        <h2 class="display-3 text-center" id="about">About</h2>
+        <p class="text-center">Mengenal lebih jauh tentang kami</p>
+        <div class="clearfix pt-5">
+          <img
+            src="about.png"
+            class="col-md-6 float-md-end mb-3 crop-img"
+            width="300"
+            height="300"
+          />
+          <p>
+            Dream furniture adalah perusahaan yang bergerak di bidang furniture.
+            Sejak 2010 kami mendirikan perusahaan ini. Kami selalu berusaha
+            untuk menyiapkan kualitas yang baik kepada pelanggan kami.
+          </p>
+          <p>
+            Mulai dari kualitas bahan yang terbuat dari kayu di Jepang dengan
+            kualitas terbaik. Selain itu, kami juga memberikan penawaran harga
+            yang sangat terjangkau
+          </p>
+          <p>
+            Kami juga memberikan pelayanan jaminan barang kembali, jika barang
+            tidak sesuai dengan apa yang pelanggan kami beli.
+          </p>
+          <p>Pelanggan puas, kami senang. Selamat Berbelanja!</p>
+        </div>
+        <div class="clearfix pt-5">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/tHpDVvO9Q-Q"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <audio controls>
+            <source src="ikea.mp3" type="audio/mp3" />
+          </audio>
+          <p>Solusi terbaik hanya di dream furniture!</p>
+        </div>
+      </div>
+    </div>
+    <!--bagian contact-->
+    <div class="container-fluid pt-5 pb-5 bg-secondary">
+      <div class="container">
+        <h2 class="display-3 text-center" id="contact">Contact</h2>
+        <p class="text-center">Anda bisa menghubungi kami di</p>
+        <div class="row pt-4 gx-4 gy-4">
+          <div class="col-md-4 text-center social">
+            <img src="ig.png" width="80" height="80" />
+            <h4>Instagram</h4>
+            <p>@dream_furniture</p>
+          </div>
+          <div class="col-md-4 text-center social">
+            <img src="tokped.png" width="80" height="80" />
+            <h4>Tokopedia</h4>
+            <p>@furnituredream.id</p>
+          </div>
+          <div class="col-md-4 text-center social">
+            <img src="wa.png" width="80" height="80" />
+            <h4>Whatsapp</h4>
+            <p>08952345901</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----bagian login-->
+    <div class="container-fluid pt-5 pb-5 bg-light">
+      <div class="container">
+        <h2 class="display-3 text-center" id="login">Login</h2>
+        <a href="login.html">Klik Untuk Login</a>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
